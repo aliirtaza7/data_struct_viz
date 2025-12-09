@@ -1,0 +1,18 @@
+{
+  "arrays": "Focus on sliding window and two-pointer techniques.",
+  "stacks": "Practice problems on balanced parentheses and stack reversal.",
+  "queues": "Learn priority queues and deque operations for efficiency.",
+  "linked lists": "Master reversing a linked list and detecting cycles.",
+  "trees": "Work on binary search trees, traversals, and height-balancing.",
+  "graphs": "Understand depth-first search (DFS), breadth-first search (BFS), and graph traversal techniques.",
+  "sorting algorithms": "Practice quicksort, mergesort, and heapsort, focusing on time complexity analysis.",
+  "searching algorithms": "Master binary search, both iterative and recursive approaches.",
+  "heaps": "Understand heap operations and practice implementing heaps for priority queue problems.",
+  "binary search tree": "Focus on BST insertion, deletion, balancing, and in-order traversal.",
+  "dynamic programming": "Work on common DP problems like knapsack, longest common subsequence, and coin change.",
+  "recursion": "Practice problems that require recursion to understand base cases and recursive calls.",
+  "hashing": "Solve problems with hash maps and hash sets to optimize search and lookup times.",
+  "trie": "Learn trie construction and applications in solving problems like word search and autocomplete.",
+  "segment tree": "Practice range queries and updates using segment trees for efficient solutions.",
+  "bit manipulation": "Work on problems that require bitwise operations, like finding single numbers or counting set bits."
+}
