@@ -1,0 +1,2239 @@
+[
+  {
+    "id": 1,
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "questionText": "What is the time complexity to access an element in an array?",
+    "options": ["O(n)", "O(1)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Accessing an element in an array is O(1) due to direct indexing."
+  },
+  {
+    "id": 2,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "What is the height of a binary tree with n nodes in the worst case?",
+    "options": ["O(log n)", "O(n)", "O(1)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "In the worst case, a binary tree can degenerate into a linked list."
+  },
+  {
+    "id": 3,
+    "topic": "Stacks",
+    "difficulty": "Easy",
+    "questionText": "Which of the following operations is used to add an element to a stack?",
+    "options": ["push", "pop", "peek", "isEmpty"],
+    "correctAnswer": 0,
+    "explanation": "The push operation is used to add an element to a stack."
+  },
+  {
+    "id": 4,
+    "topic": "Queues",
+    "difficulty": "Easy",
+    "questionText": "Which operation removes an element from a queue?",
+    "options": ["push", "pop", "enqueue", "dequeue"],
+    "correctAnswer": 3,
+    "explanation": "The dequeue operation removes an element from a queue."
+  },
+  {
+    "id": 5,
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity to access an element in a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "In a singly linked list, we need to traverse the list to access an element, so the time complexity is O(n)."
+  },
+  {
+    "id": 6,
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of inserting an element at the beginning of a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 0,
+    "explanation": "Inserting an element at the beginning of a singly linked list is an O(1) operation."
+  },
+  {
+    "id": 7,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Binary search has a time complexity of O(log n) on a sorted array."
+  },
+  {
+    "id": 8,
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity to search for an element in a balanced binary search tree (BST)?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(log n) for balanced trees"],
+    "correctAnswer": 1,
+    "explanation": "In a balanced binary search tree, searching for an element takes O(log n) time."
+  },
+  {
+    "id": 9,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is the time complexity of Depth First Search (DFS) in a graph with V vertices and E edges?",
+    "options": ["O(V + E)", "O(V^2)", "O(E)", "O(V)"],
+    "correctAnswer": 0,
+    "explanation": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
+  },
+  {
+    "id": 10,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+    "options": ["O(V^2)", "O(E log V)", "O(V log V)", "O(E)"],
+    "correctAnswer": 1,
+    "explanation": "Dijkstra's algorithm using a priority queue has a time complexity of O(E log V), where V is the number of vertices and E is the number of edges."
+  },
+  {
+    "id": 11,
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is true about stack overflow?",
+    "options": ["Occurs when there is insufficient memory", "Occurs when the stack reaches its limit", "Occurs when the heap is full", "Occurs when there is an infinite loop"],
+    "correctAnswer": 1,
+    "explanation": "A stack overflow occurs when the stack reaches its limit, usually due to excessive function calls."
+  },
+  {
+    "id": 12,
+    "topic": "Queues",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity to insert an element in a queue implemented with a circular array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 0,
+    "explanation": "Inserting an element into a queue implemented with a circular array is an O(1) operation."
+  },
+  {
+    "id": 13,
+    "topic": "Linked Lists",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity to reverse a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Reversing a singly linked list takes O(n) time."
+  },
+  {
+    "id": 14,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "questionText": "What is the space complexity of storing an array of size n?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "The space complexity of storing an array is O(n), as it requires space proportional to the number of elements."
+  },
+  {
+    "id": 15,
+    "topic": "Stacks",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is true about the maximum size of a stack in most systems?",
+    "options": ["It is always fixed", "It is limited by available memory", "It grows dynamically", "There is no limit"],
+    "correctAnswer": 1,
+    "explanation": "The maximum size of a stack is limited by the available memory in most systems."
+  },
+  {
+    "id": 16,
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is true about a complete binary tree?",
+    "options": ["All levels are fully filled except possibly the last", "Every node has two children", "It is always balanced", "It has no leaf nodes"],
+    "correctAnswer": 0,
+    "explanation": "A complete binary tree is a binary tree in which all levels are fully filled except possibly the last."
+  },
+  {
+    "id": 17,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "Which algorithm is used to find the shortest path in an unweighted graph?",
+    "options": ["Dijkstra", "Floyd-Warshall", "Bellman-Ford", "Breadth-First Search"],
+    "correctAnswer": 3,
+    "explanation": "Breadth-First Search (BFS) is used to find the shortest path in an unweighted graph."
+  },
+  {
+    "id": 18,
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity to delete an element from a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "In a singly linked list, deleting an element requires traversing the list to find the element, so the time complexity is O(n)."
+  },
+  {
+    "id": 19,
+    "topic": "Stacks",
+    "difficulty": "Easy",
+    "questionText": "What does the peek operation on a stack do?",
+    "options": ["Removes the top element", "Adds an element to the stack", "Returns the top element without removing it", "Checks if the stack is empty"],
+    "correctAnswer": 2,
+    "explanation": "The peek operation returns the top element of the stack without removing it."
+  },
+  {
+    "id": 20,
+    "topic": "Queues",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity to enqueue an element into a priority queue implemented with a binary heap?",
+    "options": ["O(log n)", "O(1)", "O(n)", "O(n log n)"],
+    "correctAnswer": 0,
+    "explanation": "In a priority queue implemented with a binary heap, the time complexity to enqueue an element is O(log n)."
+  },
+  {
+    "id": 21,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "questionText": "What is the best-case time complexity for QuickSort?",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+    "correctAnswer": 1,
+    "explanation": "The best-case time complexity of QuickSort is O(n log n) when the pivot splits the array evenly."
+  },
+  {
+    "id": 22,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "What is the space complexity of Depth First Search (DFS) in a binary tree?",
+    "options": ["O(log n)", "O(n)", "O(1)", "O(n log n)"],
+    "correctAnswer": 1,
+    "explanation": "The space complexity of DFS in a binary tree is O(n) due to the recursion stack."
+  },
+  {
+    "id": 23,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of Floyd-Warshall's algorithm for finding shortest paths between all pairs of vertices?",
+    "options": ["O(V^3)", "O(V^2)", "O(E log V)", "O(V + E)"],
+    "correctAnswer": 0,
+    "explanation": "Floyd-Warshall's algorithm has a time complexity of O(V^3), where V is the number of vertices."
+  },
+  {
+    "id": 24,
+    "topic": "Linked Lists",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of merging two sorted singly linked lists?",
+    "options": ["O(n)", "O(n^2)", "O(log n)", "O(1)"],
+    "correctAnswer": 0,
+    "explanation": "Merging two sorted singly linked lists takes O(n) time, where n is the total number of elements in both lists."
+  },
+  {
+    "id": 25,
+    "topic": "Queues",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is the primary use of a queue?",
+    "options": ["LIFO structure", "FIFO structure", "Binary search", "Balanced tree"],
+    "correctAnswer": 1,
+    "explanation": "A queue is a FIFO (First In, First Out) structure."
+  },
+  {
+    "id": 26,
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "questionText": "What is the space complexity of storing a dynamic array?",
+    "options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"],
+    "correctAnswer": 0,
+    "explanation": "The space complexity of a dynamic array is O(n), as it needs space proportional to the number of elements."
+  },
+  {
+    "id": 27,
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "questionText": "Which of the following problems can be solved using a stack?",
+    "options": ["Balanced parentheses", "Finding shortest path", "Topological sorting", "Breadth-first search"],
+    "correctAnswer": 0,
+    "explanation": "Stacks are often used to solve problems like balanced parentheses, as they follow the LIFO principle."
+  },
+  {
+    "id": 28,
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is true about a doubly linked list?",
+    "options": ["Each node has two pointers", "Each node has one pointer", "It can only traverse in one direction", "It has no tail pointer"],
+    "correctAnswer": 0,
+    "explanation": "In a doubly linked list, each node has two pointers: one to the next node and another to the previous node."
+  },
+  {
+    "id": 29,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "Which algorithm is used to find the shortest path in a weighted graph?",
+    "options": ["Dijkstra's algorithm", "Kruskal's algorithm", "Prim's algorithm", "Bellman-Ford"],
+    "correctAnswer": 0,
+    "explanation": "Dijkstra's algorithm is used to find the shortest path in a weighted graph."
+  },
+  {
+    "id": 30,
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of inserting an element into a balanced AVL tree?",
+    "options": ["O(log n)", "O(n)", "O(n log n)", "O(log n) for unbalanced trees"],
+    "correctAnswer": 0,
+    "explanation": "Inserting an element into a balanced AVL tree takes O(log n) time."
+  },
+  {
+    "id": 31,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity to insert an element at the end of a dynamic array when resizing is needed?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "When resizing is required, inserting an element at the end of a dynamic array takes O(n) time due to copying elements to a new array."
+  },
+  {
+    "id": 32,
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "questionText": "What is a leaf node in a binary tree?",
+    "options": ["A node with two children", "A node with one child", "A node with no children", "A root node"],
+    "correctAnswer": 2,
+    "explanation": "A leaf node in a binary tree is a node that has no children."
+  },
+  {
+    "id": 33,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of checking if there is an edge between two vertices in an adjacency matrix?",
+    "options": ["O(1)", "O(V)", "O(E)", "O(V^2)"],
+    "correctAnswer": 0,
+    "explanation": "In an adjacency matrix, checking if there is an edge between two vertices takes O(1) time."
+  },
+  {
+    "id": 34,
+    "topic": "Stacks",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of evaluating a postfix expression using a stack?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Evaluating a postfix expression using a stack requires O(n) time, where n is the length of the expression."
+  },
+  {
+    "id": 35,
+    "topic": "Queues",
+    "difficulty": "Medium",
+    "questionText": "What is the primary purpose of a circular queue?",
+    "options": ["To allow dynamic resizing", "To utilize unused space", "To implement LIFO operations", "To prioritize elements"],
+    "correctAnswer": 1,
+    "explanation": "A circular queue is designed to efficiently utilize unused space by wrapping around the end of the queue to the beginning."
+  },
+  {
+    "id": 36,
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is true about a singly linked list?",
+    "options": ["Each node has one pointer", "Each node has two pointers", "It can traverse in both directions", "It has no tail node"],
+    "correctAnswer": 0,
+    "explanation": "In a singly linked list, each node has one pointer to the next node."
+  },
+  {
+    "id": 37,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "Which algorithm is used to detect cycles in a graph?",
+    "options": ["Depth First Search", "Dijkstra's algorithm", "Floyd-Warshall", "Kruskal's algorithm"],
+    "correctAnswer": 0,
+    "explanation": "Depth First Search (DFS) can be used to detect cycles in a graph by keeping track of visited nodes."
+  },
+  {
+    "id": 38,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity to find the lowest common ancestor (LCA) in a binary tree?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctAnswer": 2,
+    "explanation": "Finding the lowest common ancestor (LCA) in a binary tree takes O(n) time in the worst case."
+  },
+  {
+    "id": 39,
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "questionText": "Which data structure can be used to implement function calls in a programming language?",
+    "options": ["Queue", "Stack", "Graph", "Array"],
+    "correctAnswer": 1,
+    "explanation": "Stacks are used to implement function calls, as they follow the LIFO principle."
+  },
+  {
+    "id": 40,
+    "topic": "Queues",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of deleting the maximum element in a priority queue implemented with a binary heap?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": 2,
+    "explanation": "Deleting the maximum element in a binary heap-based priority queue takes O(log n) time."
+  },
+  {
+    "id": 41,
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "questionText": "What is the primary advantage of using an array over a linked list?",
+    "options": ["Constant-time access", "Dynamic resizing", "Efficient insertion", "Efficient deletion"],
+    "correctAnswer": 0,
+    "explanation": "Arrays provide constant-time access to elements due to direct indexing."
+  },
+  {
+    "id": 42,
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of building a heap from an unsorted array?",
+    "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Building a heap from an unsorted array takes O(n) time using the heapify method."
+  },
+  {
+    "id": 43,
+    "topic": "Graphs",
+    "difficulty": "Easy",
+    "questionText": "What does a graph's adjacency list represent?",
+    "options": ["Edges between vertices", "Weights of edges", "Degree of vertices", "All possible paths"],
+    "correctAnswer": 0,
+    "explanation": "An adjacency list represents the edges between vertices in a graph."
+  },
+  {
+    "id": 44,
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of pushing an element onto a stack implemented with an array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 0,
+    "explanation": "Pushing an element onto a stack implemented with an array takes O(1) time, assuming no resizing is needed."
+  },
+  {
+    "id": 45,
+    "topic": "Queues",
+    "difficulty": "Medium",
+    "questionText": "What is the main disadvantage of a basic queue implementation using an array?",
+    "options": ["Fixed size", "Dynamic resizing", "Inefficient access", "Complex implementation"],
+    "correctAnswer": 0,
+    "explanation": "A basic queue implemented with an array has a fixed size, which limits its capacity."
+  },
+  {
+    "id": 46,
+    "topic": "Linked Lists",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity to find the middle element in a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Finding the middle element in a singly linked list takes O(n) time as it requires traversing the list."
+  },
+  {
+    "id": 47,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of Prim's algorithm for minimum spanning tree using a binary heap?",
+    "options": ["O(E log V)", "O(V^2)", "O(E)", "O(V log V)"],
+    "correctAnswer": 0,
+    "explanation": "Prim's algorithm has a time complexity of O(E log V) when implemented with a binary heap."
+  },
+  {
+    "id": 48,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of in-order traversal in a binary tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "In-order traversal of a binary tree visits each node exactly once, so it takes O(n) time."
+  },
+  {
+    "id": 49,
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of finding the maximum element in an unsorted array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": 1,
+    "explanation": "Finding the maximum element in an unsorted array requires a linear scan, so it takes O(n) time."
+  },
+  {
+    "id": 50,
+    "topic": "Stacks",
+    "difficulty": "Hard",
+    "questionText": "Which data structure is used for backtracking algorithms?",
+    "options": ["Queue", "Stack", "Graph", "Array"],
+    "correctAnswer": 1,
+    "explanation": "Stacks are used in backtracking algorithms to store the state of the problem at different stages."
+  },
+  {
+    "id": 51,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of Kruskal's algorithm for finding the minimum spanning tree (MST) with edge sorting?",
+    "options": [
+      "O(E log V)",
+      "O(E log E)",
+      "O(V^2)",
+      "O(V + E)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The time complexity of Kruskal's algorithm is dominated by edge sorting, which takes O(E log E)."
+  },
+  {
+    "id": 52,
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "questionText": "What is the result of accessing an out-of-bound index in an array in C++?",
+    "options": [
+      "Throws an exception",
+      "Undefined behavior",
+      "Returns 0",
+      "Returns the last element of the array"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Accessing an out-of-bound index in C++ results in undefined behavior."
+  },
+  {
+    "id": 53,
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of finding the middle element in a singly linked list?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Finding the middle element requires traversing the list, taking O(n) time."
+  },
+  {
+    "id": 54,
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "questionText": "What is the property of a binary search tree?",
+    "options": [
+      "All nodes have two children.",
+      "Left child is always greater than the parent.",
+      "Left child is smaller, and right child is greater than the parent.",
+      "It is always balanced."
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a binary search tree, the left child is smaller than the parent, and the right child is greater."
+  },
+  {
+    "id": 55,
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "questionText": "Which of the following applications does not use a stack?",
+    "options": [
+      "Backtracking",
+      "Recursion",
+      "Expression evaluation",
+      "Shortest path algorithms"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Shortest path algorithms like Dijkstra or Bellman-Ford do not rely on stacks; they use other data structures like priority queues."
+  },
+  {
+    "id": 56,
+    "topic": "Queues",
+    "difficulty": "Easy",
+    "questionText": "What is the difference between a queue and a deque?",
+    "options": [
+      "A deque allows insertion and deletion only at the rear.",
+      "A deque allows insertion and deletion only at the front.",
+      "A deque allows insertion and deletion at both ends.",
+      "A queue allows insertion and deletion at both ends."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A deque (double-ended queue) allows insertion and deletion from both ends."
+  },
+  {
+    "id": 57,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "Which algorithm can detect negative weight cycles in a graph?",
+    "options": [
+      "Bellman-Ford",
+      "Dijkstra's algorithm",
+      "Kruskal's algorithm",
+      "Prim's algorithm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bellman-Ford is capable of detecting negative weight cycles, unlike Dijkstra's algorithm."
+  },
+  {
+    "id": 58,
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "questionText": "What is the height of an AVL tree with n nodes in the best case?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The height of an AVL tree is O(log n), as it is a self-balancing binary search tree."
+  },
+  {
+    "id": 59,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of merging two sorted arrays?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n + m)",
+      "O(log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Merging two sorted arrays takes O(n + m), where n and m are the sizes of the two arrays."
+  },
+  {
+    "id": 60,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of solving the Longest Common Subsequence (LCS) problem using dynamic programming?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(m * n)",
+      "O(2^n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The LCS problem is solved using a 2D DP table, resulting in a time complexity of O(m * n), where m and n are the lengths of the two sequences."
+  },
+  {
+    "id": 61,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "Which sorting algorithm is the most efficient for sorting a small number of elements?",
+    "options": [
+      "Merge Sort",
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Insertion sort is efficient for sorting small datasets due to its low overhead."
+  },
+  {
+    "id": 62,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "questionText": "What is the base case in recursion?",
+    "options": [
+      "The first recursive call",
+      "The stopping condition of the recursion",
+      "The case when recursion starts",
+      "The case where maximum recursion depth is reached"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The base case is the condition under which recursion stops."
+  },
+  {
+    "id": 63,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the primary purpose of Tarjan's algorithm?",
+    "options": [
+      "Finding the shortest path",
+      "Detecting negative weight cycles",
+      "Finding strongly connected components",
+      "Finding minimum spanning trees"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tarjan's algorithm is used to find strongly connected components in a directed graph using DFS."
+  },
+  {
+    "id": 64,
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of the Knuth-Morris-Pratt (KMP) algorithm for string matching?",
+    "options": [
+      "O(n^2)",
+      "O(n + m)",
+      "O(log n)",
+      "O(n * m)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "KMP preprocesses the pattern in O(m) and matches it in O(n), leading to a total complexity of O(n + m)."
+  },
+  {
+    "id": 65,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "What data structure is commonly used in implementing Dijkstra's algorithm?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Priority Queue",
+      "Deque"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A priority queue is used to efficiently select the next vertex with the smallest tentative distance."
+  },
+  {
+    "id": 66,
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "questionText": "What is the inorder traversal of a binary search tree?",
+    "options": [
+      "Root -> Left -> Right",
+      "Left -> Root -> Right",
+      "Left -> Right -> Root",
+      "Right -> Root -> Left"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "In an inorder traversal, the left subtree is visited first, followed by the root, and then the right subtree."
+  },
+  {
+    "id": 67,
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of finding the k-th smallest element in an unsorted array using the Quickselect algorithm?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n^2)"
+    ],
+    
+    "correctAnswer": 0,
+    "explanation": "Quickselect works in O(n) average time by using a partitioning approach similar to Quick Sort."
+  },
+  {
+    "id": 68,
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "questionText": "Which of the following problems can be solved using dynamic programming?",
+    "options": [
+      "Binary search",
+      "Traveling Salesman Problem",
+      "Merge Sort",
+      "Breadth-First Search"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Dynamic programming is used to solve the Traveling Salesman Problem by breaking it down into overlapping subproblems."
+  },
+  {
+    "id": 69,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "What is the worst-case time complexity of Quick Sort?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "In the worst case, Quick Sort has a time complexity of O(n^2) when the pivot is poorly chosen."
+  },
+  {
+    "id": 70,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "Which of the following sorting algorithms is stable?",
+    "options": [
+      "Quick Sort",
+      "Merge Sort",
+      "Heap Sort",
+      "Selection Sort"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Merge Sort preserves the relative order of equal elements, making it stable, unlike Quick Sort and Heap Sort."
+  },
+  {
+    "id": 71,
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "questionText": "What is the time complexity of binary search in a sorted array?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Binary search divides the search range in half at each step, leading to a logarithmic time complexity."
+  },
+  {
+    "id": 72,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of Radix Sort?",
+    "options": [
+      "O(n^2)",
+      "O(n + k)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Radix Sort has a time complexity of O(n + k), where n is the number of elements and k is the range of digits."
+  },
+  {
+    "id": 73,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "Which searching algorithm works efficiently on a data structure where the elements are sorted in blocks?",
+    "options": [
+      "Binary Search",
+      "Jump Search",
+      "Exponential Search",
+      "Linear Search"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Jump Search is optimal for sorted data divided into blocks, as it reduces the search range in jumps of size √n."
+  },
+  {
+    "id": 74,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "What is the best-case time complexity of Bubble Sort?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(1)"
+    ],
+    
+    "correctAnswer": 0,
+    "explanation": "Bubble Sort has a best-case time complexity of O(n) when the array is already sorted."
+  },
+  {
+    "id": 75,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "What is the advantage of Ternary Search over Binary Search?",
+    "options": [
+      "Ternary Search is faster in all cases",
+      "Ternary Search reduces the range by two-thirds per step",
+      "Ternary Search does not require sorted data",
+      "Ternary Search has better time complexity"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Ternary Search splits the range into three parts and reduces the range by two-thirds, making it suitable for unimodal functions."
+  },
+  {
+    "id": 76,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "Which sorting algorithm is commonly used in database systems for large datasets?",
+    "options": [
+      "Quick Sort",
+      "Merge Sort",
+      "Heap Sort",
+      "External Sort"
+    ],
+    
+    "correctAnswer": 3,
+    "explanation": "External Sort is used for sorting large datasets that do not fit into memory, as it operates on disk-based data."
+  },
+  {
+    "id": 77,
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "questionText": "What type of data structure is required for Interpolation Search to work efficiently?",
+    "options": [
+      "Unsorted array",
+      "Sorted array",
+      "Heap",
+      "Graph"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Interpolation Search assumes the data is uniformly distributed and sorted to estimate the position of the target."
+  },
+  {
+    "id": 78,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "Which of the following sorting algorithms is the most efficient for nearly sorted data?",
+    "options": [
+      "Quick Sort",
+      "Insertion Sort",
+      "Heap Sort",
+      "Selection Sort"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Insertion Sort is highly efficient for nearly sorted data due to its adaptive nature."
+  },
+  {
+    "id": 79,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of Exponential Search?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(log n) + O(log k)",
+      "O(n^2)"
+    ],
+    
+    "correctAnswer": 2,
+    "explanation": "Exponential Search works in O(log n) for finding the range and O(log k) for binary search within that range."
+  },
+  {
+    "id": 80,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "What is the primary advantage of Quick Sort over other sorting algorithms?",
+    "options": [
+      "It is stable",
+      "It requires no extra memory",
+      "It has the best worst-case time complexity",
+      "It works well on small datasets"
+    ],
+    
+    "correctAnswer": 1,
+    "explanation": "Quick Sort is an in-place sorting algorithm, meaning it does not require extra memory for another array."
+  },
+  {
+    "id": 81,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "Which algorithm is the best choice for searching in a graph where edges have weights?",
+    "options": [
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Dijkstra's Algorithm",
+      "A* Algorithm"
+    ],
+    "correctAnswer":3,
+    "explanation": "Dijkstra's Algorithm efficiently finds the shortest path in a graph with weighted edges."
+  },
+  {
+    "id": 82,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "Which sorting algorithm uses the divide-and-conquer strategy?",
+    "options": [
+      "Bubble Sort",
+      "Quick Sort",
+      "Insertion Sort",
+      "Selection Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Quick Sort uses divide-and-conquer by splitting the array into partitions and sorting them recursively."
+  },
+  {
+    "id": 83,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "What is the primary purpose of a hash table in searching?",
+    "options": [
+      "To reduce time complexity",
+      "To allow sorted data",
+      "To store data in a tree structure",
+      "To ensure memory efficiency"
+    ],
+    "correctAnswer":1,
+    "explanation": "Hash tables enable constant time complexity (O(1)) for searching in the average case by mapping keys to indices."
+  },
+  {
+    "id": 84,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "What is the worst-case time complexity of Heap Sort?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctAnswer":2,
+    "explanation": "Heap Sort always operates in O(n log n) time complexity due to its process of repeatedly building and maintaining the heap."
+  },
+  {
+    "id": 85,
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "questionText": "Which search algorithm sequentially checks every element in the array?",
+    "options": [
+      "Binary Search",
+      "Linear Search",
+      "Jump Search",
+      "Exponential Search"
+    ],
+    "correctAnswer":1,
+    "explanation": "Linear Search iteratively checks each element in the array until the target is found."
+  },
+  {
+    "id": 86,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "Which sorting algorithm is inherently recursive?",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Merge Sort",
+      "Radix Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Merge Sort uses a recursive approach to divide the array and merge sorted subarrays."
+  },
+  {
+    "id": 87,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "What is the advantage of A* Algorithm over Dijkstra's Algorithm in pathfinding?",
+    "options": [
+      "It uses a heuristic to guide the search",
+      "It works faster on unweighted graphs",
+      "It ensures no extra memory usage",
+      "It is simpler to implement"
+    ],
+    "correctAnswer":1,
+    "explanation": "A* Algorithm combines the actual distance and an estimated heuristic to optimize the pathfinding process."
+  },
+  {
+    "id": 88,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "Which sorting algorithm sorts by repeatedly finding the minimum element?",
+    "options": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Merge Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Selection Sort works by selecting the smallest element in the unsorted part and moving it to the sorted part."
+  },
+  {
+    "id": 89,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "In which case would Exponential Search be most efficient?",
+    "options": [
+      "For unsorted data",
+      "For small datasets",
+      "When the target is near the beginning of the array",
+      "For large datasets with uniform distribution"
+    ],
+    "correctAnswer":2,
+    "explanation": "Exponential Search quickly narrows the search range, making it efficient when the target is near the start."
+  },
+  {
+    "id": 90,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "What is the primary difference between Merge Sort and Quick Sort?",
+    "options": [
+      "Merge Sort is in-place, Quick Sort is not",
+      "Quick Sort is in-place, Merge Sort is not",
+      "Merge Sort has better average-case time complexity",
+      "Quick Sort is stable, Merge Sort is not"
+    ],
+    "correctAnswer":2,
+    "explanation": "Quick Sort works in-place without additional memory for another array, whereas Merge Sort requires extra memory for merging."
+  },
+  {
+    "id": 91,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "Which search algorithm is most suitable for finding an element in a sparse sorted array?",
+    "options": [
+      "Binary Search",
+      "Linear Search",
+      "Jump Search",
+      "Interpolation Search"
+    ],
+    "correctAnswer":3,
+    "explanation": "Interpolation Search works efficiently with sorted arrays and adapts to the distribution of data, making it ideal for sparse arrays."
+  },
+  {
+    "id": 92,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "Which sorting algorithm is guaranteed to make a single pass over the data?",
+    "options": [
+      "Bubble Sort",
+      "Counting Sort",
+      "Radix Sort",
+      "Selection Sort"
+    ],
+    "correctAnswer":1,
+    "explanation": "Counting Sort uses a counting array and processes the data in a single pass to produce the sorted result."
+  },
+  {
+    "id": 93,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "Which data structure is typically used to implement a Binary Search Tree?",
+    "options": [
+      "Array",
+      "Linked List",
+      "Graph",
+      "Tree"
+    ],
+    "correctAnswer":3,
+    "explanation": "A Binary Search Tree is a tree-based data structure that organizes data for efficient searching."
+  },
+  {
+    "id": 94,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "Which sorting algorithm is best suited for sorting linked lists?",
+    "options": [
+      "Quick Sort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Merge Sort efficiently handles linked lists as it does not require random access to the data."
+  },
+  {
+    "id": 95,
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "questionText": "What is the time complexity of Binary Search in the worst case?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer":2,
+    "explanation": "Binary Search repeatedly divides the array in half, leading to a logarithmic time complexity in the worst case."
+  },
+  {
+    "id": 96,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "What is the primary use case of Radix Sort?",
+    "options": [
+      "Sorting floating-point numbers",
+      "Sorting strings or integers with fixed lengths",
+      "Sorting in constant time",
+      "Sorting small datasets"
+    ],
+    "correctAnswer":2,
+    "explanation": "Radix Sort is non-comparative and works well for sorting fixed-length keys like strings or integers."
+  },
+  {
+    "id": 97,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "Which graph search algorithm guarantees finding the shortest path in an unweighted graph?",
+    "options": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Dijkstra's Algorithm",
+      "A* Algorithm"
+    ],
+    "correctAnswer":2,
+    "explanation": "In unweighted graphs, BFS explores all nodes at the current depth before moving to the next, ensuring the shortest path is found."
+  },
+  {
+    "id": 98,
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "questionText": "Which sorting algorithm works well for nearly sorted arrays?",
+    "options": [
+      "Heap Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Merge Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Insertion Sort efficiently handles nearly sorted arrays as it minimizes the number of comparisons and shifts."
+  },
+  {
+    "id": 99,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "questionText": "What is the space complexity of Binary Search?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer":1,
+    "explanation": "Binary Search uses a constant amount of space as it only requires a few variables to track indices and the target."
+  },
+  {
+    "id": 100,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "Which sorting algorithm has the best time complexity in the average case?",
+    "options": [
+      "Merge Sort",
+      "Quick Sort",
+      "Insertion Sort",
+      "Heap Sort"
+    ],
+    "correctAnswer":2,
+    "explanation": "Quick Sort generally performs better in the average case with a time complexity of O(n log n)."
+  },
+  {
+    "id": 101,
+    "topic": "Searching",
+    "difficulty": "Hard",
+    "questionText": "Which search algorithm would you use to find an element in a rotated sorted array?",
+    "options": [
+      "Linear Search",
+      "Binary Search",
+      "Jump Search",
+      "Exponential Search"
+    ],
+    "correctAnswer":1,
+    "explanation": "Binary Search can be adapted to efficiently search in a rotated sorted array by identifying the rotated subarrays."
+  },
+  {
+    "id": 102,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of Dijkstra's algorithm when using a binary heap as the priority queue?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n log V)",
+      "O(E log V)"
+    ],
+    "correctAnswer":3,
+    "explanation": "With a binary heap, Dijkstra's algorithm has a time complexity of O(E log V), where E is the number of edges and V is the number of vertices."
+  },
+  {
+    "id": 103,
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is a base case for a recursive function that calculates the factorial of a number?",
+    "options": [
+      "factorial(n) = n * factorial(n - 1)",
+      "factorial(n) = 1",
+      "factorial(n) = 0",
+      "factorial(n) = n"
+    ],
+    "correctAnswer":1,
+    "explanation": "The base case for the factorial function is when n = 0 or n = 1, and the result is 1."
+  },
+  {
+    "id": 104,
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctAnswer":0,
+    "explanation": "Inserting a node at the beginning of a singly linked list involves adjusting the head pointer, which is a constant time operation."
+  },
+  {
+    "id": 105,
+    "topic": "Stacks and Queues",
+    "difficulty": "Medium",
+    "questionText": "Which of the following operations is supported by a queue but not by a stack?",
+    "options": [
+      "Push",
+      "Pop",
+      "Peek",
+      "Enqueue"
+    ],
+    "correctAnswer":3,
+    "explanation": "In a queue, elements are added using the 'enqueue' operation, while in a stack, elements are added using the 'push' operation."
+  },
+  {
+    "id": 106,
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "questionText": "What is the worst-case time complexity of Merge Sort?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "correctAnswer":0,
+    "explanation": "Merge Sort always has a worst-case time complexity of O(n log n), regardless of the input data."
+  },
+  {
+    "id": 107,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "Which traversal method is used by the A* search algorithm?",
+    "options": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Best-First Search",
+      "Dijkstra's Algorithm"
+    ],
+    "correctAnswer":2,
+    "explanation": "A* search algorithm uses Best-First Search, where it evaluates nodes based on a heuristic to find the shortest path."
+  },
+  {
+    "id": 108,
+    "topic": "Hashing",
+    "difficulty": "Medium",
+    "questionText": "Which collision resolution technique is used in a hash table with open addressing?",
+    "options": [
+      "Chaining",
+      "Linear Probing",
+      "Quadratic Probing",
+      "Double Hashing"
+    ],
+    "correctAnswer":1,
+    "explanation": "Linear Probing is a collision resolution technique where we search for the next available slot sequentially in case of a collision."
+  },
+  {
+    "id": 109,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "Which sorting algorithm is based on the concept of 'divide and conquer'?",
+    "options": [
+      "Quick Sort",
+      "Insertion Sort",
+      "Merge Sort",
+      "Bubble Sort"
+    ],
+    "correctAnswer":0,
+    "explanation": "Quick Sort is a 'divide and conquer' algorithm that divides the array into smaller sub-arrays and sorts them recursively."
+  },
+  {
+    "id": 110,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "Which traversal method visits nodes in the order: left, root, right?",
+    "options": [
+      "Pre-order",
+      "In-order",
+      "Post-order",
+      "Level-order"
+    ],
+    "correctAnswer":1,
+    "explanation": "In-order traversal visits nodes in the left subtree, then the root, and then the right subtree."
+  },
+  {
+    "id": 111,
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "questionText": "What is the time complexity of solving the 0/1 Knapsack problem using dynamic programming?",
+    "options": [
+      "O(n^2)",
+      "O(n * W)",
+      "O(W^2)",
+      "O(n log n)"
+    ],
+    "correctAnswer":1,
+    "explanation": "The time complexity of the 0/1 Knapsack problem using dynamic programming is O(n * W), where n is the number of items and W is the maximum weight capacity."
+  },
+  {
+    "id": 112,
+    "topic": "Greedy Algorithms",
+    "difficulty": "Hard",
+    "questionText": "In which scenario is a greedy algorithm most effective for solving a problem?",
+    "options": [
+      "When the problem has overlapping subproblems",
+      "When the problem has an optimal substructure",
+      "When the problem involves backtracking",
+      "When the problem can be solved with dynamic programming"
+    ],
+    "correctAnswer":1,
+    "explanation": "Greedy algorithms work best when a problem exhibits an optimal substructure, meaning the global optimum can be derived from local optima."
+  },
+  {
+    "id": 113,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "questionText": "Which of the following trees is balanced by definition?",
+    "options": [
+      "Binary Search Tree",
+      "AVL Tree",
+      "Red-Black Tree",
+      "Splay Tree"
+    ],
+    "correctAnswer":1,
+    "explanation": "An AVL Tree is a self-balancing binary search tree, where the difference between the heights of the left and right subtrees is at most 1."
+  },
+  {
+    "id": 114,
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "questionText": "What is the time complexity of binary search on a sorted array?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correctAnswer":1,
+    "explanation": "Binary search works by dividing the array in half on each iteration, so its time complexity is O(log n)."
+  },
+  {
+    "id": 115,
+    "topic": "Stacks and Queues",
+    "difficulty": "Medium",
+    "questionText": "Which data structure is used in the implementation of a breadth-first search (BFS) algorithm?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Priority Queue"
+    ],
+    "correctAnswer":1,
+    "explanation": "BFS uses a queue to explore nodes level by level, processing nodes in the order they are discovered."
+  },
+  {
+    "id": 116,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "questionText": "What is the time complexity of performing Depth-First Search (DFS) on a graph represented by an adjacency list?",
+    "options": [
+      "O(V + E)",
+      "O(V^2)",
+      "O(E log V)",
+      "O(V log V)"
+    ],
+    "correctAnswer":0,
+    "explanation": "DFS explores all vertices and edges in the graph, so the time complexity is O(V + E), where V is the number of vertices and E is the number of edges."
+  },
+  {
+    "id": 117,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "questionText": "What is the space complexity of Merge Sort?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctAnswer":1,
+    "explanation": "Merge Sort requires additional space to store temporary sub-arrays during the merging process, resulting in a space complexity of O(n)."
+  },
+  {
+    "id": 118,
+    "topic": "Hashing",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is a disadvantage of open addressing in hash tables?",
+    "options": [
+      "Requires extra space",
+      "Collisions lead to longer chains",
+      "Performance degrades when the load factor increases",
+      "Hashing functions are more complex"
+    ],
+    "correctAnswer":2,
+    "explanation": "As the load factor increases in open addressing, the chances of collision increase, leading to longer probe sequences and degraded performance."
+  },
+  {
+    "id": 119,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "questionText": "What is the main advantage of using recursion in solving problems?",
+    "options": [
+      "It reduces the complexity of the problem",
+      "It allows for dynamic memory allocation",
+      "It simplifies the problem-solving process",
+      "It always leads to an optimal solution"
+    ],
+    "correctAnswer":2,
+    "explanation": "Recursion allows complex problems to be broken down into smaller, more manageable subproblems, simplifying the overall solution process."
+  },
+  {
+    "id": 120,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "questionText": "What is the primary difference between dynamic programming and greedy algorithms?",
+    "options": [
+      "Dynamic programming makes local decisions, while greedy algorithms make global decisions",
+      "Dynamic programming solves subproblems multiple times, while greedy algorithms solve them once",
+      "Dynamic programming guarantees an optimal solution, while greedy algorithms do not",
+      "Greedy algorithms guarantee an optimal solution, while dynamic programming does not"
+    ],
+    "correctAnswer":2,
+    "explanation": "Dynamic programming guarantees an optimal solution by solving overlapping subproblems, whereas greedy algorithms may not always yield an optimal solution."
+  },
+  
+    {
+      "id": 121,
+      "topic": "Dynamic Programming",
+      "difficulty": "Hard",
+      "questionText": "What is the space complexity of the dynamic programming solution for the 0/1 Knapsack problem?",
+      "options": [
+        "O(n)",
+        "O(W)",
+        "O(n * W)",
+        "O(1)"
+      ],
+      "correctAnswer":2,
+      "explanation": "The space complexity of the dynamic programming solution for the 0/1 Knapsack problem is O(n * W), where n is the number of items and W is the maximum weight capacity."
+    },
+    {
+      "id": 122,
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "questionText": "Which algorithm is used to find the shortest path in a weighted graph with positive weights?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Bellman-Ford Algorithm",
+        "A* Algorithm"
+      ],
+      "correctAnswer":0,
+      "explanation": "Dijkstra's algorithm is used to find the shortest path in a weighted graph with positive weights. It uses a greedy approach to select the nearest node."
+    },
+    {
+      "id": 123,
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "questionText": "Which of the following sorting algorithms is not comparison-based?",
+      "options": [
+        "Merge Sort",
+        "Quick Sort",
+        "Heap Sort",
+        "Counting Sort"
+      ],
+      "correctAnswer":3,
+      "explanation": "Counting Sort is a non-comparison-based sorting algorithm that works by counting the number of occurrences of each element."
+    },
+    {
+      "id": 124,
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "questionText": "What is the maximum number of children that a node can have in a ternary tree?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Any number"
+      ],
+      "correctAnswer":1,
+      "explanation": "In a ternary tree, each node can have a maximum of 3 children."
+    },
+    {
+      "id": 125,
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "questionText": "Which of the following problems can be solved using recursion?",
+      "options": [
+        "Factorial of a number",
+        "Fibonacci series",
+        "Tower of Hanoi",
+        "All of the above"
+      ],
+      "correctAnswer":3,
+      "explanation": "All of the problems listed—factorial, Fibonacci series, and Tower of Hanoi—can be efficiently solved using recursion."
+    },
+    {
+      "id": 126,
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "questionText": "What is the time complexity of performing a Breadth-First Search (BFS) on a graph with V vertices and E edges?",
+      "options": [
+        "O(V + E)",
+        "O(V^2)",
+        "O(E log V)",
+        "O(V log V)"
+      ],
+      "correctAnswer":0,
+      "explanation": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph."
+    },
+    {
+      "id": 127,
+      "topic": "Dynamic Programming",
+      "difficulty": "Medium",
+      "questionText": "Which problem can be solved using dynamic programming?",
+      "options": [
+        "Shortest Path Problem",
+        "Longest Common Subsequence",
+        "Traveling Salesman Problem",
+        "Graph Coloring"
+      ],
+      "correctAnswer":1,
+      "explanation": "The Longest Common Subsequence (LCS) problem is commonly solved using dynamic programming, as it involves overlapping subproblems."
+    },
+    {
+      "id": 128,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of searching for an element in an ideal hash table?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "correctAnswer":2,
+      "explanation": "In an ideal hash table (with minimal collisions), the time complexity of searching for an element is O(1)."
+    },
+    {
+      "id": 129,
+      "topic": "Sorting",
+      "difficulty": "Easy",
+      "questionText": "Which of the following sorting algorithms has the best average-case time complexity?",
+      "options": [
+        "Bubble Sort",
+        "Insertion Sort",
+        "Quick Sort",
+        "Merge Sort"
+      ],
+      "correctAnswer":2,
+      "explanation": "Quick Sort has an average-case time complexity of O(n log n), which is generally better than Bubble Sort, Insertion Sort, or Merge Sort in practice."
+    },
+    {
+      "id": 130,
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "questionText": "Which type of tree is used for fast searching, insertion, and deletion of data?",
+      "options": [
+        "Binary Search Tree (BST)",
+        "AVL Tree",
+        "Red-Black Tree",
+        "B-tree"
+      ],
+      "correctAnswer":0,
+      "explanation": "A Binary Search Tree (BST) allows fast searching, insertion, and deletion of data in O(log n) time, assuming the tree is balanced."
+    },
+    {
+      "id": 131,
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "questionText": "What is the primary advantage of using an adjacency matrix to represent a graph?",
+      "options": [
+        "Efficient for sparse graphs",
+        "Allows fast edge lookups",
+        "Requires less memory",
+        "Easier to implement DFS"
+      ],
+      "correctAnswer":1,
+      "explanation": "An adjacency matrix allows fast edge lookups (O(1) time complexity) by simply checking the matrix entries."
+    },
+    {
+      "id": 132,
+      "topic": "Greedy Algorithms",
+      "difficulty": "Medium",
+      "questionText": "Which of the following problems can be solved using a greedy algorithm?",
+      "options": [
+        "Knapsack Problem",
+        "Huffman Coding",
+        "Minimum Spanning Tree",
+        "Longest Common Subsequence"
+      ],
+      "correctAnswer":2,
+      "explanation": "The Minimum Spanning Tree (MST) problem can be solved using greedy algorithms like Prim’s and Kruskal’s algorithms."
+    },
+    {
+      "id": 133,
+      "topic": "Stacks and Queues",
+      "difficulty": "Easy",
+      "questionText": "Which of the following is a valid use case for a stack data structure?",
+      "options": [
+        "Undo functionality in text editors",
+        "Maintaining the order of elements in a queue",
+        "Priority-based scheduling",
+        "Storing key-value pairs"
+      ],
+      "correctAnswer":0,
+      "explanation": "Stacks are used for undo functionality in text editors, as the most recent action is undone first (LIFO order)."
+    },
+    {
+      "id": 134,
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "questionText": "Which sorting algorithm is the most efficient for sorting large datasets with a large number of elements?",
+      "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Insertion Sort",
+        "Heap Sort"
+      ],
+      "correctAnswer":1,
+      "explanation": "Merge Sort is efficient for large datasets as it has a time complexity of O(n log n) and works well for large, sorted or unsorted data."
+    },
+    {
+      "id": 135,
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "questionText": "Which of the following is a common base case used in recursion?",
+      "options": [
+        "Infinite loop",
+        "Reaching a solution",
+        "Reaching the maximum recursion depth",
+        "Reaching the minimum base value"
+      ],
+      "correctAnswer":3,
+      "explanation": "A common base case in recursion is when the problem can be solved without further recursive calls, typically when reaching the minimum base value."
+    },
+    {
+      "id": 136,
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "questionText": "Which tree traversal method visits the root node before the left and right children?",
+      "options": [
+        "In-order",
+        "Pre-order",
+        "Post-order",
+        "Level-order"
+      ],
+      "correctAnswer":1,
+      "explanation": "In pre-order traversal, the root node is visited first, followed by the left and right subtrees."
+    },
+    {
+      "id": 137,
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "questionText": "Which algorithm is used to find the strongly connected components (SCC) in a directed graph?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Kosaraju's Algorithm",
+        "Prim's Algorithm",
+        "Kruskal's Algorithm"
+      ],
+      "correctAnswer":1,
+      "explanation": "Kosaraju's algorithm is used to find strongly connected components (SCC) in a directed graph using two DFS passes."
+    },
+    {
+      "id": 138,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "questionText": "What is a potential drawback of using a hash table?",
+      "options": [
+        "Hash collisions",
+        "Increased space usage",
+        "Slower access times",
+        "It requires sorting of data"
+      ],
+      "correctAnswer":0,
+      "explanation": "One potential drawback of hash tables is hash collisions, where two distinct keys produce the same hash value."
+    },
+    {
+      "id": 139,
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "questionText": "Which sorting algorithm performs better when the data is already partially sorted?",
+      "options": [
+        "Bubble Sort",
+        "Quick Sort",
+        "Insertion Sort",
+        "Merge Sort"
+      ],
+      "correctAnswer":2,
+      "explanation": "Insertion Sort performs well on partially sorted data with a time complexity of O(n) when the data is nearly sorted."
+    },
+    {
+      "id": 140,
+      "topic": "Greedy Algorithms",
+      "difficulty": "Medium",
+      "questionText": "What is the greedy choice property in a greedy algorithm?",
+      "options": [
+        "Choosing the local optimum that leads to the global optimum",
+        "Choosing the global optimum at each step",
+        "Choosing the maximum value in the entire solution space",
+        "Choosing the first available option"
+      ],
+      "correctAnswer":0,
+      "explanation": "The greedy choice property refers to choosing the local optimum at each step, with the hope of finding the global optimum."
+    },
+    {
+      "id": 141,
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "questionText": "Which of the following algorithms is used for finding the minimum spanning tree in a connected, weighted graph?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Kruskal's Algorithm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prim's algorithm is used to find the minimum spanning tree in a connected, weighted graph by expanding the tree one edge at a time."
+    },
+    {
+      "id": 142,
+      "topic": "Stacks and Queues",
+      "difficulty": "Easy",
+      "questionText": "Which of the following operations is supported by a stack?",
+      "options": [
+        "Push and Pop",
+        "Push and Enqueue",
+        "Pop and Dequeue",
+        "Enqueue and Dequeue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A stack supports the Push (insert) and Pop (remove) operations, following the Last In, First Out (LIFO) principle."
+    },
+    {
+      "id": 143,
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "questionText": "What type of tree structure is used in a binary heap?",
+      "options": [
+        "Complete Binary Tree",
+        "Full Binary Tree",
+        "Perfect Binary Tree",
+        "Balanced Binary Tree"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A binary heap is a complete binary tree, where each level is fully filled except possibly the last, and nodes are added from left to right."
+    },
+    {
+      "id": 144,
+      "topic": "Dynamic Programming",
+      "difficulty": "Hard",
+      "questionText": "Which of the following problems is a classical example of dynamic programming?",
+      "options": [
+        "Longest Increasing Subsequence",
+        "Shortest Path",
+        "Minimum Spanning Tree",
+        "Traveling Salesman Problem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Longest Increasing Subsequence (LIS) problem is a classical example of dynamic programming, where overlapping subproblems are solved efficiently."
+    },
+    {
+      "id": 145,
+      "topic": "Greedy Algorithms",
+      "difficulty": "Medium",
+      "questionText": "Which of the following is the main disadvantage of greedy algorithms?",
+      "options": [
+        "They always guarantee an optimal solution",
+        "They are slower than dynamic programming",
+        "They may not always yield the optimal solution",
+        "They require sorting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main disadvantage of greedy algorithms is that they do not always guarantee an optimal solution, as they make local decisions without considering the global context."
+    },
+    {
+      "id": 146,
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "questionText": "What is the best sorting algorithm for sorting a very large dataset in memory?",
+      "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Quick Sort",
+        "Counting Sort"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Quick Sort is often the best choice for sorting large datasets due to its average-case time complexity of O(n log n)."
+    },
+    {
+      "id": 147,
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "questionText": "Which algorithm is best suited for finding the shortest paths between all pairs of vertices in a weighted graph?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Floyd-Warshall Algorithm",
+        "A* Algorithm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Floyd-Warshall algorithm is used for finding the shortest paths between all pairs of vertices in a graph, especially useful for dense graphs."
+    },
+    {
+      "id": 148,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "questionText": "Which of the following is a common method used to handle hash collisions?",
+      "options": [
+        "Linear Probing",
+        "Separate Chaining",
+        "Double Hashing",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Linear Probing, Separate Chaining, and Double Hashing are all common methods used to handle hash collisions in hash tables."
+    },
+    {
+      "id": 149,
+      "topic": "Stacks and Queues",
+      "difficulty": "Medium",
+      "questionText": "Which data structure is used in the implementation of depth-first search (DFS)?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Priority Queue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DFS uses a stack to explore nodes, where the most recently discovered node is processed first (LIFO order)."
+    },
+    {
+      "id": 150,
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of performing a Depth-First Search (DFS) on a graph with V vertices and E edges?",
+      "options": [
+        "O(V + E)",
+        "O(V^2)",
+        "O(E log V)",
+        "O(V log V)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DFS explores all vertices and edges in the graph, so the time complexity is O(V + E), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "id": 151,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of accessing an element in an array by index?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Accessing an element by index in an array is a constant time operation, so the time complexity is O(1)."
+    },
+    {
+      "id": 152,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "questionText": "Which of the following array operations has the worst-case time complexity of O(n)?",
+      "options": [
+        "Search",
+        "Insert",
+        "Delete",
+        "Access"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the worst case, deleting an element from an array requires shifting the subsequent elements, making the time complexity O(n)."
+    },
+    {
+      "id": 153,
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "questionText": "What does a 'sliding window' technique help optimize in array-based problems?",
+      "options": [
+        "Space complexity",
+        "Time complexity",
+        "Recursive depth",
+        "Sorting order"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sliding window technique helps to optimize time complexity by maintaining a fixed-size window of elements while processing the array, reducing redundant calculations."
+    },
+    {
+      "id": 154,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "questionText": "What is the best approach to reverse an array in place?",
+      "options": [
+        "Use a temporary array",
+        "Iterate from both ends and swap",
+        "Use a stack",
+        "Sort the array in reverse order"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reversing an array in place can be done efficiently by swapping elements from both ends, resulting in an O(n) time complexity."
+    },
+    {
+      "id": 155,
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "questionText": "Which algorithm can be used to find the majority element in an array (element that appears more than n/2 times)?",
+      "options": [
+        "Kadanes Algorithm",
+        "Moore's Voting Algorithm",
+        "Merge Sort",
+        "Quick Sort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moore's Voting Algorithm is an efficient algorithm for finding the majority element in an array with a time complexity of O(n)."
+    },
+    {
+      "id": 156,
+      "topic": "Linked Lists",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of finding the middle element of a singly linked list?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find the middle element, you need to traverse the entire linked list, so the time complexity is O(n)."
+    },
+    {
+      "id": 157,
+      "topic": "Linked Lists",
+      "difficulty": "Medium",
+      "questionText": "Which operation on a singly linked list requires O(1) time complexity?",
+      "options": [
+        "Inserting at the beginning",
+        "Inserting at the end",
+        "Deleting a node with a specific value",
+        "Reversing the list"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inserting a node at the beginning of a singly linked list only requires adjusting the head pointer, which is an O(1) operation."
+    },
+    {
+      "id": 158,
+      "topic": "Linked Lists",
+      "difficulty": "Medium",
+      "questionText": "How would you detect a cycle in a singly linked list?",
+      "options": [
+        "Using two pointers (Floyd’s Tortoise and Hare)",
+        "Checking if the list length exceeds a threshold",
+        "Using a hash set to track visited nodes",
+        "Sorting the list"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Floyd’s Tortoise and Hare algorithm uses two pointers moving at different speeds to detect cycles in O(n) time."
+    },
+    {
+      "id": 159,
+      "topic": "Linked Lists",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of deleting the last element from a singly linked list?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a singly linked list, to delete the last element, you need to traverse the list to find the second-to-last node, which is an O(n) operation."
+    },
+    {
+      "id": 160,
+      "topic": "Linked Lists",
+      "difficulty": "Hard",
+      "questionText": "Which of the following algorithms can be used to reverse a singly linked list in place?",
+      "options": [
+        "Swap nodes in pairs",
+        "Iterate through the list, changing pointers",
+        "Merge Sort",
+        "Quick Sort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reversing a singly linked list in place can be done by iterating through the list and changing the direction of the pointers, in O(n) time."
+  },
+  
+    {
+      "id": 161,
+      "topic": "Stacks",
+      "difficulty": "Medium",
+      "questionText": "Which of the following problems can be solved using a stack?",
+      "options": [
+        "Balancing parentheses",
+        "Depth-first search in a graph",
+        "Undo functionality in text editors",
+        "All of the above"
+      ],
+      
+      "correctAnswer": 3,
+      "explanation": "Stacks are commonly used for problems like balancing parentheses, DFS in graphs, and implementing undo functionality in text editors."
+    },
+    {
+      "id": 162,
+      "topic": "Stacks",
+      "difficulty": "Easy",
+      "questionText": "What is the time complexity of pushing an element onto a stack?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "Pushing an element onto a stack is a constant time operation, so the time complexity is O(1)."
+    },
+    {
+      "id": 163,
+      "topic": "Stacks",
+      "difficulty": "Medium",
+      "questionText": "Which of the following operations is not supported by a stack?",
+      "options": [
+        "Push",
+        "Pop",
+        "Peek",
+        "Dequeue"
+      ],
+      
+      "correctAnswer": 3,
+      "explanation": "Stacks support the operations push (insert), pop (remove), and peek (view top), but not dequeue, which is supported by queues."
+    },
+    {
+      "id": 164,
+      "topic": "Stacks",
+      "difficulty": "Hard",
+      "questionText": "What is the space complexity of a stack data structure?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      
+      "correctAnswer": 1,
+      "explanation": "The space complexity of a stack is O(n), where n is the number of elements stored in the stack."
+    },
+    {
+      "id": 165,
+      "topic": "Stacks",
+      "difficulty": "Medium",
+      "questionText": "Which stack-based algorithm is used for evaluating expressions in postfix notation?",
+      "options": [
+        "Shunting Yard",
+        "DFS",
+        "Dijkstra's Algorithm",
+        "Postfix Evaluation Algorithm"
+      ],
+      
+      "correctAnswer": 3,
+      "explanation": "The Postfix Evaluation Algorithm uses a stack to evaluate expressions written in postfix notation (Reverse Polish Notation)."
+    },
+    {
+      "id": 166,
+      "topic": "Queues",
+      "difficulty": "Medium",
+      "questionText": "Which of the following is true about a queue data structure?",
+      "options": [
+        "It follows the FIFO principle",
+        "It follows the LIFO principle",
+        "It supports random access",
+        "It is implemented using a stack"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "A queue follows the First In, First Out (FIFO) principle, where the first element added is the first to be removed."
+    },
+    {
+      "id": 167,
+      "topic": "Queues",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of enqueue and dequeue operations in a circular queue?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "In a circular queue, both the enqueue and dequeue operations are O(1) since the queue operates in a circular manner, avoiding shifting elements."
+    },
+    {
+      "id": 168,
+      "topic": "Queues",
+      "difficulty": "Medium",
+      "questionText": "Which of the following data structures can be used to implement a queue?",
+      "options": [
+        "Array",
+        "Linked List",
+        "Circular Array",
+        "All of the above"
+      ],
+    
+      "correctAnswer": 3,
+      "explanation": "Queues can be implemented using arrays, linked lists, or circular arrays, depending on the use case."
+    },
+    {
+      "id": 169,
+      "topic": "Queues",
+      "difficulty": "Easy",
+      "questionText": "Which operation removes an element from the front of a queue?",
+      "options": [
+        "Enqueue",
+        "Dequeue",
+        "Push",
+        "Pop"
+      ],
+      
+      "correctAnswer": 1,
+      "explanation": "In a queue, the dequeue operation removes an element from the front of the queue."
+    },
+    {
+      "id": 170,
+      "topic": "Queues",
+      "difficulty": "Medium",
+      "questionText": "Which type of queue allows elements to be added at both ends?",
+      "options": [
+        "Circular Queue",
+        "Double-ended Queue (Deque)",
+        "Priority Queue",
+        "FIFO Queue"
+      ],
+      
+      "correctAnswer": 1,
+      "explanation": "A Double-ended Queue (Deque) allows insertion and deletion of elements from both ends (front and rear)."
+    },
+    {
+      "id": 171,
+      "topic": "Heap Sort",
+      "difficulty": "Medium",
+      "questionText": "What is the time complexity of Heap Sort in the worst case?",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "Heap Sort has a worst-case time complexity of O(n log n) for both building the heap and sorting the elements."
+    },
+    {
+      "id": 172,
+      "topic": "Heap Sort",
+      "difficulty": "Medium",
+      "questionText": "What is the space complexity of the heap sort algorithm?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "Heap Sort is an in-place sorting algorithm, so it uses O(1) extra space."
+    },
+    {
+      "id": 173,
+      "topic": "Heap Sort",
+      "difficulty": "Medium",
+      "questionText": "Which of the following data structures is used to implement Heap Sort?",
+      "options": [
+        "Binary Heap",
+        "Binary Search Tree",
+        "Red-Black Tree",
+        "Linked List"
+      ],
+    
+      "correctAnswer": 0,
+      "explanation": "Heap Sort is implemented using a binary heap, which is a complete binary tree with a special heap property."
+    },
+    {
+      "id": 174,
+      "topic": "Heap Sort",
+      "difficulty": "Hard",
+      "questionText": "Which of the following operations is performed in O(log n) time in heap sort?",
+      "options": [
+        "Inserting a new element into the heap",
+        "Building the heap",
+        "Extracting the maximum element from the heap",
+        "Sorting the array"
+      ],
+      
+      "correctAnswer": 0,
+      "explanation": "Inserting a new element into a heap takes O(log n) time due to the need to maintain the heap property."
+    },
+    {
+      "id": 175,
+      "topic": "Heap Sort",
+      "difficulty": "Medium",
+      "questionText": "How does heap sort maintain the heap property?",
+      "options": [
+        "By performing in-order traversal",
+        "By comparing and swapping nodes during insertion and extraction",
+        "By dividing the array into subarrays",
+        "By recursively splitting the array"
+      ],
+      
+      "correctAnswer": 1,
+      "explanation": "Heap Sort maintains the heap property by comparing and swapping nodes during the insertion of new elements and the extraction of the maximum (or minimum) element."
+    }
+]
+
+    
+  
+  
+
