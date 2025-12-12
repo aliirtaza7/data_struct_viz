@@ -58,51 +58,13 @@ View personalized suggestions based on your quiz performance
 
 This platform is designed to help beginners AND intermediate-level students confidently master DSA.
 
-👥 Contributors
+| Name                 | Role                        | Major Contributions                                                                                                               |
+| -------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **M Sana ur Rehman** | Frontend Developer          | Implemented UI, interactions, and pages; developed Binary Tree visualizations; main frontend workflow lead                        |
+| **Ayesha Saleem**    | Backend Developer (Node.js) | Implemented Linked list & Queues visualizations logic; integrated APIs; handled backend configuration & project setup                                 |
+| **Ali Irtaza** | Full-stack Support | Developed Stacks visualizations; assisted backend logic; integrated APIs; managed repository structure & version control |                         |
+| **All Team Members** | Shared Contributions        | UI polishing; feature debugging; final integration; project structuring; concept implementation; occasional AI-assisted debugging |
 
-This project is proudly developed by:
-
-Frontend
-
-M Sana ur Rehman
-
-Main frontend developer
-
-Implemented UI, interactions, and pages
-
-Developed visualizations for Binary Trees
-
-Backend
-
-Ayesha Saleem
-
-Node.js backend developer
-
-Implemented Stacks & Queues logic
-
-Integrated APIs and handled project configurations
-
-Ali Irtaza
-
-Developed Linked List visualizations
-
-Assisted backend + repository management
-
-Shared Contributions
-
-All three team members contributed to:
-
-UI polishing
-
-Feature debugging
-
-Final integration
-
-Project structuring
-
-Concept implementations
-
-With occasional help from AI for debugging or code improvements
 
 📄 License
 
