@@ -5,20 +5,20 @@ import { use } from 'react';
 
 export const dataStructures = [
     // { name: 'Doubly Linked List', route: '/doublelinkedlist' },
-    { name: 'Circular Linked List', route: '/circularlinkedlist' },
-    { name: 'Linked List', route: '/linkedlist' },
-    { name: 'Hashmap', route: '/hashmap' },
-    { name: 'Queue', route: '/queue' },
-    { name: 'Stack', route: '/stack' },
-    { name: 'Stack from Linked List', route: '/linkedstack' },
-    { name: 'Queue from Linked List', route: '/linkedqueue' },
+    { name: 'Circular Linked List', route: '/structures/circularlinkedlist' },
+    { name: 'Linked List', route: '/structures/linkedlist' },
+    { name: 'Hashmap', route: '/structures/hashmap' },
+    { name: 'Queue', route: '/structures/queue' },
+    { name: 'Stack', route: '/structures/stack' },
+    { name: 'Stack from Linked List', route: '/structures/linkedstack' },
+    { name: 'Queue from Linked List', route: '/structures/linkedqueue' },
     // { name: 'Directed Graph', route: '/directedgraph' },
     // { name: 'Undirected Graph', route: '/undirectedgraph' },
     // { name: 'Weighted Graph', route: '/weightedgraph' },
-    { name: 'Binary Tree', route: '/binarytree' },
+    { name: 'Binary Tree', route: '/structures/binarytree' },
     // { name: 'Heap Min', route: '/heapmin' },
     // { name: 'Heap Max', route: '/heapmax' },
-    { name: 'AVL Tree', route: '/avltree' },
+    { name: 'AVL Tree', route: '/structures/avltree' },
 ];
 
 type MenuProps = {
@@ -51,7 +51,7 @@ export default function Menu({ params }: MenuProps) {
                         {dataStructures.map((ds) => (
                             <Link
                                 key={ds.route}
-                                href={`/${username}/${studentId}/structures${ds.route}`}
+                                href={`/${username}/${studentId}${ds.route}`}
                                 className="glass bg-gradient-to-br from-[#252538] to-[#1E1E2E] rounded-2xl p-4 text-center border border-transparent hover:border-[#89B4FA]/50 transition-all"
                             >
                                 <span className="text-[#CDD6F4] font-semibold">{ds.name}</span>

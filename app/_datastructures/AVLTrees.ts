@@ -284,7 +284,23 @@ findIndex(value: T): number {
       return node.index; // Node found, return its index
     }
   }
-  
+
+  // method to get node by index
+  getNodeByIndex(index: number): AvlNode<T> | null {
+    return this.getNodeByIndexHelper(this.root, index);
+  }
+
+  private getNodeByIndexHelper(node: AvlNode<T> | null, index: number): AvlNode<T> | null {
+    if (node === null) {
+      return null;
+    }
+    if (node.index === index) {
+      return node;
+    }
+    const left = this.getNodeByIndexHelper(node.left, index);
+    if (left) return left;
+    return this.getNodeByIndexHelper(node.right, index);
+  }
   
 }
 

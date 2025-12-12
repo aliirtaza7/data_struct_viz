@@ -34,8 +34,8 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-[#45475A]/30">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    {/* Logo Section */}
-                    <div className="flex items-center space-x-4">
+                    {/* Centered Logo */}
+                    <div className="flex-1 flex justify-center">
                         <div 
                             className="cursor-pointer hover:opacity-80 transition-opacity flex items-center"
                             onClick={() => {
@@ -46,22 +46,12 @@ export default function Navbar() {
                             }}
                         >
                             <Image 
-                                src="/Main Logo.svg" 
+                                src="/main-logo.svg" 
                                 alt="Data Struct Viz Logo" 
-                                width={120} 
-                                height={40}
-                                className="h-8 w-auto object-contain"
+                                width={150} 
+                                height={50}
+                                className="h-10 w-auto object-contain"
                                 priority
-                            />
-                        </div>
-                    </div>
-
-                    {/* Animated Progress Line */}
-                    <div className="flex-1 mx-8 hidden md:block">
-                        <div className="relative h-1 bg-[#45475A]/30 rounded-full overflow-hidden">
-                            <div 
-                                className="absolute top-0 left-0 h-full bg-gradient-to-r from-[#89B4FA] via-[#A6E3A1] to-[#F9E2AF] rounded-full transition-all duration-300"
-                                style={{ width: `${scrollProgress}%` }}
                             />
                         </div>
                     </div>

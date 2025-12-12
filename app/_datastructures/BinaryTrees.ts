@@ -235,14 +235,21 @@ private searchHelper(node: TreeNode<T> | null, data: T): number {
       return Math.max(leftHeight, rightHeight) + 1;
     }
 
-    // method to see if data would increase the height of the tree
-    wouldIncreaseHeight(data: T): boolean {
-      const newNode = new TreeNode(data);
-      if (this.root === null) {
-        return true;
+    // method to get node by index
+    getNodeByIndex(index: number): TreeNode<T> | null {
+      return this.getNodeByIndexHelper(this.root, index);
+    }
+
+    private getNodeByIndexHelper(node: TreeNode<T> | null, index: number): TreeNode<T> | null {
+      if (node === null) {
+        return null;
       }
-  
-      return this.wouldIncreaseHeightHelper(this.root, newNode);
+      if (node.index === index) {
+        return node;
+      }
+      const left = this.getNodeByIndexHelper(node.left, index);
+      if (left) return left;
+      return this.getNodeByIndexHelper(node.right, index);
     }
 
     // helper method to see if data would increase the height of the tree
