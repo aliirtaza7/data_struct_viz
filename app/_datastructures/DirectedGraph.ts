@@ -16,11 +16,10 @@ dfs
 
 */
 
-import Queue from "./QueueArrays";
+import Queue from "./QueueArray";
 import StackArr from "./StackArray";
 
 class DirectedGraph {
-
     public matrix: number[][];  // adjacency matrix to store the grap
     public vertexNames: string[];  // list of vertex names for easy reference
     public vertexCount: number;  // track of the number of vertices currently in the graph
@@ -57,7 +56,7 @@ class DirectedGraph {
         this.vertexCount++;
         console.log(`Vertex ${vertexName} added successfully.`);
     }
- 
+
     // Add an edge between two vertices
     addEdge(startVertex: string, endVertex: string): void {
         const startIndex = this.vertexNames.indexOf(startVertex);
@@ -92,7 +91,7 @@ class DirectedGraph {
         return this.vertexCount;
     }
 
-     // Get the number of edges in the graph
+    // Get the number of edges in the graph
     numOfEdges(): number {
         let edgeCount = 0;
         for (let i = 0; i < this.vertexCount; i++) {
@@ -126,7 +125,6 @@ class DirectedGraph {
         console.log(`Edge removed from ${startVertex} to ${endVertex}. If it was present.`);
     }
 
-
     // Delete a vertex from the graph along with its associated edges
     deleteVertex(vertex: string): void {
         const index = this.vertexNames.indexOf(vertex);
@@ -146,7 +144,6 @@ class DirectedGraph {
         this.vertexCount--;
         console.log(`Vertex ${vertex} removed successfully.`);
     }
-
 
     // BFS to find the shortest path (unweighted graph)
     shortestPath(source: string, destination: string): string[] | null {
@@ -207,7 +204,7 @@ class DirectedGraph {
         return path;
     }
 
-    bfs(startVertex: string, callback: (index: number) => void): string[] {
+bfs(startVertex: string, callback: (index: number) => void): string[] {
     const startIndex = this.vertexNames.indexOf(startVertex);
 
     if (startIndex === -1) {
@@ -284,8 +281,10 @@ dfs(startVertex: string, callback: (index: number) => void): string[] {
 
     return result;
 }
-}
 
+
+
+}
 
 
 export default DirectedGraph;

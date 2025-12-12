@@ -1,0 +1,267 @@
+[
+  {
+    "studentId": "student2",
+    "score": 100,
+    "topic": "Graphs"
+  },
+  {
+    "studentId": "student5",
+    "score": "99",
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "student2",
+    "score": 92,
+    "topic": "Queues"
+  },
+  {
+    "studentId": "student3",
+    "score": 90,
+    "topic": "Stacks"
+  },
+  {
+    "studentId": "student2",
+    "score": 90,
+    "topic": "Queues"
+  },
+  {
+    "studentId": "student4",
+    "score": 88,
+    "topic": "Queues"
+  },
+  {
+    "studentId": "student2",
+    "score": 85,
+    "topic": "Graphs"
+  },
+  {
+    "studentId": "student2",
+    "score": 80,
+    "topic": "Queues"
+  },
+  {
+    "studentId": "student1",
+    "score": 75,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "student2",
+    "score": 75,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "student1",
+    "score": 70,
+    "topic": "Linked Lists"
+  },
+  {
+    "studentId": "student3",
+    "score": 65,
+    "topic": "Trees"
+  },
+  {
+    "studentId": "469355",
+    "score": 75,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 1,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 1,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Linked Lists"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Linked Lists"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Linked Lists"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays"
+  },
+  {
+    "studentId": "student2",
+    "score": 100,
+    "topic": "Graphs",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 100,
+    "topic": "Graphs",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 100,
+    "topic": "Graphs",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 100,
+    "topic": "Graphs",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 0,
+    "topic": "Graphs",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 0,
+    "topic": "Stacks",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 0,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student2",
+    "score": 25,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 25,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 0,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 50,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 100,
+    "topic": "Trees",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 50,
+    "topic": "Queues",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "469355",
+    "score": 50,
+    "topic": "Heap Sort",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student23",
+    "score": 100,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "student23",
+    "score": 60,
+    "topic": "Searching",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "hassam1",
+    "score": 60,
+    "topic": "Searching",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "hassam1",
+    "score": 75,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  },
+  {
+    "studentId": "234",
+    "score": 75,
+    "topic": "Arrays",
+    "left": null,
+    "right": null
+  }
+]

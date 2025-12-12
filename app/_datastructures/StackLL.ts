@@ -1,8 +1,15 @@
-// Linked List Node class
+// Stack using array:
 // Methods in it:-
-// push(): adds an item to the top of the stack.
-// pop(): removes and returns the top item of the stack.
-// peek(): returns the top item without removing it.
+/*isFull
+push(): adds an item to the top of the stack.
+pop(): removes and returns the top item of the stack.
+peek(): returns the top item without removing it.
+isEmpty(): checks whether the stack is empty.
+size(): returns the number of elements in the stack.
+clear(): clears the stack.
+print()
+ */
+
 export class ListNode<T> {
     value: T;
     next: ListNode<T> | null;

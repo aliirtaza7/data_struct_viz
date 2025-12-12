@@ -17,7 +17,7 @@ export async function main(topic: string, difficulty: "Easy" | "Medium" | "Hard"
   // Load the questions directly into the 'questionsMap' (HashMap)
   const questionsMap = loadQuestions(topic, difficulty);
 
-  if (questionsMap.size() === 0) {
+  if (questionsMap.size === 0) {
     console.log("No questions available for the chosen topic and difficulty.");
     rl.close();
     return;

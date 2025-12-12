@@ -1,4 +1,4 @@
-// WeightedUnDirected Graph:
+// Directed Graph:
 // Method present in it:-
 /*
 
@@ -17,11 +17,10 @@ kruskal
 
  */
 
-import Queue from "./QueueArrays";
+import Queue from "./QueueArray";
 import StackArr from "./StackArray";
 
 class WeightedUndirectedGraph {
-
     public matrix: number[][];  // adjacency matrix to store the graph
     public vertexNames: string[];  // list of vertex names for easy refrence
     public vertexCount: number;  // track of the number of vertices currently in the graph
@@ -223,7 +222,8 @@ class WeightedUndirectedGraph {
         return path;
     }
 
-     // Breadth-First Search (BFS) Traversal
+     
+    // Breadth-First Search (BFS) Traversal
     bfs(startVertex: string): string[] {
         const startIndex = this.vertexNames.indexOf(startVertex);
     
@@ -262,7 +262,8 @@ class WeightedUndirectedGraph {
         return result;
     }
 
-    // Depth-First Search (DFS) Traversal using an Explicit Stack
+       // Depth-First Search (DFS) Traversal
+// Depth-First Search (DFS) Traversal using an Explicit Stack
 dfs(startVertex: string): string[] {
     const startIndex = this.vertexNames.indexOf(startVertex);
 
