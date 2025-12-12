@@ -135,7 +135,7 @@ export default function Page() {
                                 onClick={() => router.push('/login')}
                                 className="text-[#89B4FA] hover:text-[#7AA3E8] font-medium transition-colors"
                             >
-                                Already have an account? <span className="underline">Sign In</span>
+                                Already have an account? <span className="underline">Log In</span>
                             </button>
                         </div>
                     </form>

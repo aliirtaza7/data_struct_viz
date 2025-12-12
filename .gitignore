@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+app/_backend/_quizModule/_src/_data/users.json
+app/_backend/_quizModule/_src/_data/leaderboard.json
+app/_backend/_quizModule/_src/_data/performance.json

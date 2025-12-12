@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "username": "aakash1",
     "studentId": "student1",
     "password": "testpassword"
@@ -69,10 +68,5 @@
     "username": "muzi",
     "studentId": "234",
     "password": "murtaza1"
-=======
-    "username": "hello ",
-    "studentId": "456",
-    "password": "1234"
->>>>>>> ba221c572efde9729799c3f32a367e4bc179db14
   }
 ]

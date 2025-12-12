@@ -69,7 +69,7 @@ export default function Page() {
                         Welcome Back
                     </h2>
                     <p className="text-center mb-8 text-[#CDD6F4]/70">
-                        Sign in to continue your learning journey
+                        Login in to continue your learning journey
                     </p>
                     
                     <form onSubmit={handleSubmit} className="space-y-6">
@@ -126,7 +126,7 @@ export default function Page() {
                             disabled={isLoading}
                             className="w-full py-3 px-4 bg-[#89B4FA] hover:bg-[#7AA3E8] rounded-lg text-[#1E1E2E] font-semibold focus:outline-none focus:ring-2 focus:ring-[#89B4FA] focus:ring-offset-2 focus:ring-offset-[#1E1E2E] transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
                         >
-                            {isLoading ? 'Signing in...' : 'Sign In'}
+                            {isLoading ? 'logging in...' : 'Log In'}
                         </button>
 
                         <div className="text-center">

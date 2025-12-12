@@ -119,9 +119,9 @@ export default function Page() {
               </div>
             )}
           </div>
-        );
-      }
-      
+        </div>
+      );
+    }
 
     return (
         <div className="page-shell flex justify-center">
@@ -132,5 +132,5 @@ export default function Page() {
                 </p>
             </div>
         </div>
-    )
+    );
 }
