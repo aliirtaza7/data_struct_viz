@@ -1,4 +1,4 @@
-// unDirected Graph:
+// Directed Graph:
 // Methods present in it:-
 /*
 
@@ -15,11 +15,10 @@ bfs
 dfs
  */
 
-import Queue from "./QueueArrays";
+import Queue from "./QueueArray";
 import StackArr from "./StackArray";
 
 class UndirectedGraph {
-
     public matrix: number[][];  // adjacency matrix to store the graph
     public vertexNames: string[];  // list of vertex names for easy reference
     public vertexCount: number;  // track of the number of vertices currently in the graph
@@ -32,7 +31,7 @@ class UndirectedGraph {
         this.vertexNames = [];
     }
   
-  // Add a vertex to the graph
+    // Add a vertex to the graph
     addVertex(vertexName: string): void {
         if (this.vertexCount >= this.maxVertices) {
             console.log(`Cannot add more vertices. Maximum limit of ${this.maxVertices} reached.`);
@@ -57,7 +56,7 @@ class UndirectedGraph {
         console.log(`Vertex ${vertexName} added successfully.`);
     }
   
-     // Add an edge between two vertices (undirected)
+    // Add an edge between two vertices (undirected)
     addEdge(startVertex: string, endVertex: string): void {
         const startIndex = this.vertexNames.indexOf(startVertex);
         const endIndex = this.vertexNames.indexOf(endVertex);
@@ -72,9 +71,8 @@ class UndirectedGraph {
         this.matrix[endIndex][startIndex] = 1;
         console.log(`Edge added between ${startVertex} and ${endVertex}.`);
     }
-
-
-     // Display the graph as an adjacency matrix
+  
+    // Display the graph as an adjacency matrix
     displayGraph(): void {
         console.log("Adjacency Matrix:");
         console.log("    " + this.vertexNames.join("  "));
@@ -88,7 +86,6 @@ class UndirectedGraph {
         }
     }
   
-
     // Get the number of vertices in the graph
     numOfNodes(): number {
         return this.vertexCount;
@@ -107,7 +104,6 @@ class UndirectedGraph {
         return edgeCount;
     }
   
-
     // Clear the graph (remove all vertices and edges)
     clear(): void {
         this.matrix = [];
@@ -132,7 +128,6 @@ class UndirectedGraph {
         console.log(`Edge removed between ${startVertex} and ${endVertex}. If it was present.`);
     }
   
-
     // Delete a vertex from the graph along with its associated edges
     deleteVertex(vertex: string): void {
         const index = this.vertexNames.indexOf(vertex);
@@ -152,7 +147,7 @@ class UndirectedGraph {
         this.vertexCount--;
         console.log(`Vertex ${vertex} removed successfully.`);
     }
-
+  
     // BFS algorithm to find the shortest path
     shortestPath(source: string, destination: string): string[] | null {
         const startIndex = this.vertexNames.indexOf(source);
@@ -244,6 +239,7 @@ class UndirectedGraph {
         return result;
     }
     
+    
     // dfs code
     dfs(startVertex: string): string[] {
         const startIndex = this.vertexNames.indexOf(startVertex);
@@ -282,10 +278,10 @@ class UndirectedGraph {
         return result;
     }
     
-}
-
-
- export default UndirectedGraph;
+  }
+  
+  
+  export default UndirectedGraph;
   
   
   

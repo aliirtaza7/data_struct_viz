@@ -1,15 +1,14 @@
 // _modules/utils.ts
 import { Question } from "../_types/questions";
 import HashMap from "@/app/_datastructures/HashMap"
-import questionsData from "../_data/questions.json";
+import data from "../_data/questions.json";
 
 // Function to load questions from JSON into a HashMap (keyed by question ID)
 export function loadQuestions(topic: string, difficulty: "Easy" | "Medium" | "Hard"): HashMap<number, Question> {
   const questionsMap = new HashMap<number, Question>();
 
-  const data = questionsData as Question[];
   // Filter the questions based on the topic and difficulty
-  data.forEach((question : Question) => {
+  data.forEach((question) => {
     if (question.topic === topic && question.difficulty === difficulty) {
       questionsMap.set(question.id, { ...question, difficulty: question.difficulty as "Easy" | "Medium" |"Hard" });
     }

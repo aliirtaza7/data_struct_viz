@@ -300,3 +300,4 @@ export default BinaryTree;
   // binaryTree.deleteNodeRight(2);
   // console.log("\npre-order traversal:");
   // binaryTree.preOrderTraversal();
+  
